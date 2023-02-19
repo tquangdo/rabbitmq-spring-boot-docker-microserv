@@ -40,6 +40,6 @@ docker-compose up --build
 ```
 - will see `create new connection rabbitMQ...`
 ![mq](screenshots/mq.png)
-- access `localhost:8080` will see default page of spring boot
+- access `localhost:8080` or `localhost:8081` will see default page of spring boot
 - access `localhost:8080/dotq deptrai dfgsdgsdfgdgf 123` will see `receiver    | Received <dotq deptrai dfgsdgsdfgdgf 123>` in terminal and in browser will be:
 ![demo](screenshots/demo.png)
